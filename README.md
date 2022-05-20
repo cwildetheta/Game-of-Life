@@ -1,0 +1,1 @@
+Game of Life simulation, done for The Software Institute training.

@@ -1,0 +1,6 @@
+Two 2D vectors of booleans, one for the map display, the other for working out the next state.
+The calculation vector can be copied into the display vector at the end of the calcualtions.
+Using a gamemap class that has the two vectors as attributes.
+Class methods will be: gamemap() (constructor), run_game(), display_map(), calculate_state().
+run_game() will loop between display_map() and calculate_state() to propagate the turns, moving the calculation vector into the display vector at the end of each turn.
+The move can be done because the data in the calculation vector isn't needed again, and will be recalculated before next use.
