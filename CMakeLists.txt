@@ -12,4 +12,4 @@ set(CMAKE_CXX_STANDARD_LIBRARIES "-static-libgcc -static-libstdc++ -lwsock32 -lw
 
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive")
 
-add_executable(${PROJECT_NAME} src/gamemap.cpp src/main.cpp)
+add_executable(${PROJECT_NAME} src/base_functions.cpp src/map_types.cpp src/gamemap.cpp src/main.cpp)
